@@ -1,0 +1,21 @@
+sources:
+  - name: raw
+    database: BITEGO
+    schema: RAW
+    tables:
+      - name: restaurants
+        description: "This table contains the raw data of restaurants from Bitego."
+      - name: users
+        description: "This table contains the raw data of users from Bitego."
+      - name: food
+        description: "This table contains the raw data of food items from Bitego."
+      - name: menu
+        description: "This table contains the raw data of menus from Bitego."
+      - name: orders
+        description: "This table contains the raw data of orders from Bitego."
+      - name: order_items
+        description: "This table contains the raw data of order items from Bitego."
+      - name: reviews
+        description: "This table contains the raw data of reviews from Bitego."
+
+        

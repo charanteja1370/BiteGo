@@ -1,0 +1,14 @@
+.env
+*.env
+!.env.example
+airflow/logs/
+**/target/
+**/dbt_packages/
+**/review_embeddings.parquet
+.venv/
+__pycache__/
+.DS_Store
+.idea/
+profiles.yml
+logs/
+*.log
